@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/myHomeFragment">
+
+    <fragment
+        android:id="@+id/myHomeFragment"
+        android:name="com.devshadat.ciblapp.fragments.MyHomeFragment"
+        android:label="MyHomeFragment">
+        <action
+            android:id="@+id/action_myHomeFragment_to_bkashPaymentFragment"
+            app:destination="@id/bkashPaymentFragment" />
+        <action
+            android:id="@+id/action_myHomeFragment_to_nagadPaymentFragment"
+            app:destination="@id/nagadPaymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bkashPaymentFragment"
+        android:name="com.devshadat.ciblapp.fragments.BkashPaymentFragment"
+        android:label="BkashPaymentFragment" />
+    <fragment
+        android:id="@+id/nagadPaymentFragment"
+        android:name="com.devshadat.ciblapp.fragments.NagadPaymentFragment"
+        android:label="NagadPaymentFragment" />
+</navigation>

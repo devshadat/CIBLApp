@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CIBL Pay</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="cibl_pay_n_transaction_receipt">CIBL Pay \n Transaction Receipt</string>
+    <string name="company_address">Police Plaza Concord (Level 10, Tower\n2) Plot 2, Road 144, Gulshan 1</string>
+    <string name="download_receipt">Download Receipt</string>
+    <string name="share">Share</string>
+</resources>
